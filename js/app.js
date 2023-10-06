@@ -1,11 +1,13 @@
 let result;
-let className = "box p-2 square mx-2 d-inline-flex justify-content-center align-items-center ";
 
 for (let i = 0; i < 100; i++) {
   const n = i + 1;
 
   const fizz = n % 3;
   const buzz = n % 5;
+
+  let className =
+    "box p-2 square mx-2 d-inline-flex justify-content-center align-items-center ";
 
   if (fizz === 0 && buzz === 0) {
     console.log("FizzBuzz");
@@ -31,5 +33,4 @@ for (let i = 0; i < 100; i++) {
   paragraph.innerHTML = result;
   div.append(paragraph);
 
-  className = "box p-2 square mx-2 d-inline-flex justify-content-center align-items-center ";
 }
