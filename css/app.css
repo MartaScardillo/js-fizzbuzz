@@ -1,0 +1,16 @@
+body {
+    background-color: rgb(20, 73, 98);
+}
+
+.square {
+    height: 75px;
+    width: 75px;
+}
+
+div > p {
+    transition: transform 300ms;
+}
+
+div > p:hover {
+    transform: scale(1.2);
+}
